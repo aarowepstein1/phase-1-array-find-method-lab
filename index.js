@@ -1,1 +1,7 @@
-// code your solution here
+function superbowlWin(record) {
+    const findYear = record.find(foo => foo.result === "W");
+    if (findYear) {
+        return findYear.year;
+    }
+}
+
